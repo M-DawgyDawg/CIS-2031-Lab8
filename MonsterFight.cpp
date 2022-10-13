@@ -58,5 +58,5 @@ fight(monsters[1], monsters[3]);
 
 
     //Comment out this line
-    printMonsterStats(monsters[3]);
+    //printMonsterStats(monsters[3]);
 }
