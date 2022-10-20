@@ -62,7 +62,9 @@ void main(){
             printMonsterStats(monsters[f]);
             printMonsterStats(monsters[g]);
             cout << endl;
-            
+ 
+            }
+
         }
       
     }
