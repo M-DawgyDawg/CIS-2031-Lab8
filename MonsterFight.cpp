@@ -54,6 +54,7 @@ void main(){
     for(int f = 0; f < 5; f++){
         for(int g = 0; g < 5; g++){
             if( f != g){
+                if(monsters[f].hitpoints > 0 && monsters[g].hitpoints > 0){
             
             fight(monsters[f], monsters[g]);
             
@@ -62,7 +63,7 @@ void main(){
             printMonsterStats(monsters[f]);
             printMonsterStats(monsters[g]);
             cout << endl;
- 
+                }
             }
 
         }
